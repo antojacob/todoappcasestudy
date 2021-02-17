@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="bdy">
+    <div class="container">
+        <h1 id="heading">TODO APP</h1>
+        <div class="main">
+        <h2>Login</h2>
+        <form id="form_id" method="post" name="myform" >
+        <label>User Name </label>
+        <input type="text" name="username" id="username1"/>
+        <label for="error" id="error"></label><br>
+        <label>Password </label>
+        <input type="password" name="password" id="password1"/>
+        <label for="error2" id="error2"></label><br>
+        <input type="button" value="Login" id="submit" onclick="return validate()"/>
+        <label for="verify" id="verify"></label><br>
+        </form>
+        </div>
+      
+     </div>
+<script src="./js files/todo.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
