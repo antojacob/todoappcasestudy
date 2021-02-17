@@ -40,7 +40,7 @@ function validate()
   function approved(){
     console.log("approved");
     document.write("Redirecting....."); 
-    setTimeout(function(){window.location = "todopage.html";}, 500); 
+    setTimeout(function(){window.location = "main.html";}, 500); 
   }
   function check(a,b,done){
     if(x=="admin" && y=="12345"){
